@@ -1,0 +1,106 @@
+            header {
+            width: 100%;
+            background: gainsboro;
+            border: 1px solid;
+            position: fixed;
+            height: 50px;
+            text-align: right;
+            border-color: darkgray;
+            border-width: 1px;
+        }
+
+        header .logo {
+            color: darkslategrey;
+            position: absolute;
+            left: 10px;
+            top: 12px;
+            text-align: left;
+            font-size: 20px;
+        }
+
+        header nav ul {
+            font-size: 18px;
+            list-style-type: none;
+            display: inline-block;
+            padding-right: 9px;
+            padding-top: 13px;
+            margin: 0;
+            width: 120px;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            width: auto;
+        }
+
+        header nav ul li a {
+            text-align: right;
+            color: purple;
+        }
+
+        section {
+            margin-left: 40px;
+            padding-top: 75px;
+            text-align: left;
+        }
+
+        section label {
+            display: block;
+            font-size: 17px;
+        }
+
+        section input[type=text] {
+            display: inline-block;
+            width: 30%;
+            padding: 6px 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-color: gray;
+            border-style: solid;
+            border-radius: 2px;
+        }
+
+        section input[type=image] {
+            width: 33px;
+            height: 33px;
+            display: inline-block;
+            box-sizing: border-box;
+            border-color: gray;
+            border-style: solid;
+            border-radius: 3px;
+        }
+
+        nav.pages {
+            padding: 10px;
+            display: inline-block;
+            margin-left: 40px;
+            margin-bottom: 40px;
+            margin-top: 40px;
+            width: auto;
+            border-style: solid;
+            border-radius: 3px;
+            border-width: 1px;
+        }
+
+        nav.pages a.pages-button {
+            text-align: center;
+            padding: 10px;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        main {}
+
+        main ul.listings {
+            list-style-type: none;
+            margin-left: 40px;
+            color: darkgray;
+        }
+
+        main ul.listings li.listing {
+            padding-bottom: 15px;
+            display: block;
+        }
+
+        main li.listing a.listing-title {
+            padding: 20px;
